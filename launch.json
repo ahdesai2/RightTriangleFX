@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "mvctextview.Driver",
+            "projectName": "RightTriangleFX_d5a050ef",
+          "vmArgs": "--module-path 'c:\\Users\\anjal\\Downloads\\Java\\Javafxstorage\\javafx-sdk-19.0.2.1\\lib' --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.swing"
+            
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "subpackage.Driver",
+            "projectName": "RightTriangleFX_d5a050ef"
+        },
+        {
+            "type": "java",
+            "name": "RightTriangle",
+            "request": "launch",
+            "mainClass": "subpackage.RightTriangle",
+            "projectName": "RightTriangleFX_d5a050ef"
+            
+        },
+       
+    ]
+}
